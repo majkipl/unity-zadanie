@@ -1,0 +1,4 @@
+FROM postgres:14.11
+
+COPY pgsql/01-schema.sql /docker-entrypoint-initdb.d/
+COPY pgsql/02-data.sql /docker-entrypoint-initdb.d/

@@ -1,0 +1,8 @@
+/vendor
+/.idea
+/mysql
+/.run
+Homestead.json
+Homestead.yaml
+.env
+.run
